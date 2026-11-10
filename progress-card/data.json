@@ -1,0 +1,27 @@
+{
+  "brand": "Cat Tracks",
+  "tagline": "Lesson memories that stick.",
+  "sport_rule": "Equally ski and snowboard.",
+  "disclaimer": "Concept mockup. Not affiliated with Cataloochee Ski Area.",
+  "booking_url": "https://cataloochee.isalespro.com/ecomm/",
+  "epic_note": "My Epic = native app · Cat Tracks = one QR web page · 5 levels · ski + ride",
+  "levels": [
+    {"id": 1, "name": "Beginner's Luck", "difficulty": "Easier · Green", "color": "green", "next_run": "Easy Way", "ski": ["Wedge stop", "Balance in wedge", "Conveyor confidence"], "ride": ["Heel-edge stop", "First slides", "Conveyor confidence"]},
+    {"id": 2, "name": "Easy Way", "difficulty": "Easier · Green", "color": "green", "next_run": "Turkey Trot", "ski": ["Wedge turns", "First chairlift", "Controlled speed"], "ride": ["Falling leaf", "J-turns", "First chairlift"]},
+    {"id": 3, "name": "Turkey Trot", "difficulty": "Easier · Green", "color": "green", "next_run": "Rock Island Run", "ski": ["Wedge christie", "Linked turns top→bottom", "Speed checks"], "ride": ["Linked turns top→bottom", "Toe- and heel-edge", "Speed checks"]},
+    {"id": 4, "name": "Rock Island Run", "difficulty": "Intermediate · Blue", "color": "blue", "next_run": "Omigosh", "ski": ["Parallel turns", "Confident blue", "Reading the fall line"], "ride": ["Carving", "Confident blue", "Reading the fall line"]},
+    {"id": 5, "name": "Omigosh", "difficulty": "Most Difficult · Black", "color": "black", "next_run": "Bonus parks & glades", "ski": ["Confident parallel on black", "Steep control", "Line choice"], "ride": ["Confident on black", "Steep control", "Line choice"]}
+  ],
+  "bonus_badges": [
+    {"id": "wild-cat-glade", "name": "Wild Cat Glade", "note": "Glade bonus — ski or ride"},
+    {"id": "alley-cat", "name": "Alley Cat", "note": "Steep bonus — ski or ride"},
+    {"id": "turkey-trot-park", "name": "Turkey Trot Park", "note": "CCTP beginner park — Start Small · skiers + riders"},
+    {"id": "richards-run-park", "name": "Richard's Run Park", "note": "CCTP intermediate/advanced · skiers + riders"}
+  ],
+  "milestones": ["First Tracks", "Lift Legend", "Fall & Rise", "Wild Cat Glade", "Alley Cat", "Turkey Trot Park", "Richard's Run Park"],
+  "riders": [
+    {"id": "maya", "name": "Maya R.", "sport": "ski", "level": 2, "badges": ["Beginner's Luck", "Easy Way", "First Tracks"], "bonus": [], "milestones": ["First Tracks"], "stats": {"lessons": 4, "days": 3}, "lesson_group": ["Coach Cameron", "Maya R. (ski)", "Leo P. (ride)", "Ava K. (ski)"]},
+    {"id": "leo", "name": "Leo P.", "sport": "ride", "level": 4, "badges": ["Beginner's Luck", "Easy Way", "Turkey Trot", "Rock Island Run", "Lift Legend"], "bonus": ["Turkey Trot Park"], "milestones": ["First Tracks", "Lift Legend", "Turkey Trot Park"], "stats": {"lessons": 9, "days": 7}, "lesson_group": ["Coach Cameron", "Leo P. (ride)", "Noah T. (ski)"]},
+    {"id": "ava", "name": "Ava K.", "sport": "ski", "level": 1, "badges": [], "bonus": [], "milestones": [], "stats": {"lessons": 1, "days": 1}, "lesson_group": ["Coach Cameron", "Ava K. (ski)", "Maya R. (ski)"]}
+  ]
+}
