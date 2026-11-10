@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 37 37">
+<!-- QR placeholder box — regenerate points to live URL in kit qr.png -->
+<rect width="37" height="37" fill="#f6f1e8"/>
+<text x="18.5" y="18" text-anchor="middle" font-size="3" fill="#1b3d2f" font-family="sans-serif">SCAN LIVE</text>
+<text x="18.5" y="23" text-anchor="middle" font-size="2" fill="#c45c26" font-family="sans-serif">cat-tracks-demo</text>
+</svg>
