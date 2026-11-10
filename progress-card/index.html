@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Tracks Progress Card · concept mockup</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <p class="mock">Concept mockup · ski + snowboard · not affiliated with Cataloochee</p>
+    <h1>Cat Tracks</h1>
+    <p class="sub">QR Progress Card</p>
+    <p class="epic-note">My Epic = native app · Cat Tracks = one QR page · 5 levels · SKI + RIDE</p>
+  </header>
+  <main>
+    <label class="switcher">Sample rider
+      <select id="rider-select" aria-label="Sample rider"></select>
+    </label>
+    <article class="card" id="progress-card" aria-live="polite">
+      <div class="level" id="level-chip">Level —</div>
+      <h2 id="rider-name" style="margin-top:10px">—</h2>
+      <p id="run-line" class="fine">—</p>
+      <p id="skill-track" class="fine">—</p>
+      <div class="ring-wrap">
+        <div class="ring" id="ach-ring" style="--p:0"><div class="ring-inner" id="ach-pct">0%</div></div>
+        <div><strong>Achievement path</strong><p class="fine" id="ach-caption">Milestones</p></div>
+      </div>
+      <div class="stats" id="stats-strip"></div>
+      <div class="badges" id="badge-row"></div>
+      <h2>Lesson group</h2>
+      <div class="roster" id="roster"></div>
+      <div style="text-align:center;margin-top:16px">
+        <img id="qr-img" src="qr.svg" width="160" height="160" alt="QR code" />
+        <p class="fine">Scan → this rider’s Cat Tracks card</p>
+      </div>
+    </article>
+    <div class="actions">
+      <a class="btn" href="../gallery/">Open gallery</a>
+      <a class="btn secondary" href="../">Starter kit home</a>
+    </div>
+  </main>
+  <footer>Equally ski + snowboard · concept mockup · STOMP concepts only</footer>
+  <script src="app.js"></script>
+</body>
+</html>
